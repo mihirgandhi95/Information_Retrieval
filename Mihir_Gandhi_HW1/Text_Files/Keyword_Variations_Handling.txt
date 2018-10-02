@@ -1,0 +1,2 @@
+How keyword variations were handled:1] split the link to create tokens, convert tokens to lowercase, convert keywords to lower case and compare Regular expressions were used to convert the links to tokens.2] if the tokens match then return the link3] tokens are created using regular expressions split4] we can also use nltk -  word_tokenize for the generation of tokens but eventual checking has to be performed on an English dictionary like one provided by pyEnchant
+5] I have used pyEnchant to check the existence of the word in the dictionary
